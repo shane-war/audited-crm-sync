@@ -18,7 +18,7 @@ The tracked-file hygiene checker runs in CI. It checks common credential formats
 
 ## CI
 
-The workflow runs hygiene checks, tests, and the demo on Python 3.9 and 3.13. GitHub Actions results are the source of truth for remote execution; local results alone do not establish a CI pass.
+The workflow runs hygiene checks, tests, and the demo on Python 3.9 and 3.13 with Ubuntu 24.04. The initial `ubuntu-latest` run could not install Python 3.9 on Ubuntu 26.04; pinning the runner resolves that environment mismatch. GitHub Actions results are the source of truth for remote execution; local results alone do not establish a CI pass.
 
 ## Limits
 
