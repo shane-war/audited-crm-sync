@@ -68,3 +68,7 @@ Tests exercise independent local/remote databases over HTTP: ambiguous response 
 This newly authored portfolio example is inspired by external-API integration and audit design experience. It uses invented account/team identifiers, no copied employer implementation, and no vendor account or original Git history. The outbox and recovery guarantees described here belong to this demonstration; they are not claims about a former production system.
 
 The demo has no real CRM authentication, background scheduler, operator reconciliation UI, metrics exporter, or deployment configuration. The mock HTTP server binds to loopback and is not a production server. See [design notes](docs/design.md) and [verification](docs/verification.md).
+
+## License
+
+[MIT License](LICENSE) — Copyright (c) 2026 Shane Warnakula.
